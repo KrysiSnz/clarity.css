@@ -1,14 +1,4 @@
 
-:root {
-    --accent: #00ffec;
-    --accent2: #ff7db3;
-    --bg-color: #0000008f;
-    --bg-accent: #65406ba3;
-    --gif: url(https://cdn.betterttv.net/emote/5d38aaa592fc550c2d5996b8/3x); /*url directly to gif or png*/
-    --size: 110px; /* To Scale the size of the emote*/
-}
-
-
 /*Disabled Clutter Ui*/
 #newsHolder {
 display:none;
