@@ -1,0 +1,32 @@
+@import url(https://oxycotic.github.io/Yuki-Aim/yuki_aim.css);
+
+
+
+
+/*Edit Below | DO NOT TOUCH ABOVE OR IT WILL BREAK*/
+
+:root {
+    --accent: #00ffec;
+	/*Primary Color For Text and such*/
+	
+    --accent2: #ff7db3;
+	/*Secondary Color , Used for text shadows etc*/
+	
+    --bg-color: #0000008f;
+	/*Primary BackRound Color Should be slightly Transparent*/
+	
+    --bg-accent: #65406ba3;
+	/*Used for shadow backround elements */
+	
+    --gif: url(https://cdn.betterttv.net/emote/5d38aaa592fc550c2d5996b8/3x); 
+	/*url directly to gif or png*/
+	/*ONLY CHANGE url(change this);*/
+	
+    --size: 110px;
+	/*Some Emotes Need Scaling so mess around if it dosnt display*/
+}
+
+@font-face {
+    font-family: gamefont;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2);
+}
