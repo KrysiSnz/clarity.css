@@ -1,3 +1,6 @@
 # clarity.css
 css for krunker
-dont steal or bad >:(
+use all you want 
+
+thanks to ando for the steam fixes 
+
