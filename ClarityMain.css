@@ -1,38 +1,31 @@
-/*
-Edit the parts after " : " (e.g --accent: <----) the arrow would be what you edit
-only edit below here
-*/
-
-
-
 :root {	
+    --accent: #00ffec;
+    /*Main Color*/	
 	
---accent: #00ffec;
-/*Main Color*/	
+    --accent2: #ff7db3;
+    /*Accent Color*/
+    	
+    --bg-color: #0000008f;
+    /*Primary Backround Color (make it slightly transparent)*/
 	
---accent2: #ff7db3;
-/*Accent Color*/
+    --bg-accent: #65406ba3;
+    /*Seccondary Backround Color (make it slightly transparent)*/
 	
---bg-color: #0000008f;
-/*Primary Backround Color (make it slightly transparent)*/
+    --gif: url(https://cdn.betterttv.net/emote/5d38aaa592fc550c2d5996b8/3x);
+    /*url directly to gif or png*/
+    /*--gif: url(you link here) <---- LIKE THIS*/
 	
---bg-accent: #65406ba3;
-/*Seccondary Backround Color (make it slightly transparent)*/
-	
---gif: url(https://cdn.betterttv.net/emote/5d38aaa592fc550c2d5996b8/3x);
-/*url directly to gif or png*/
-/*--gif: url(you link here) <---- LIKE THIS*/
-	
---size: 110px; 
-/* To Scale the size of the gif (scaling it to big can fuck your entire ui)*/
+    --size: 110px; 
+    /* To Scale the size of the gif (scaling it to big can fuck your entire ui)*/
 }
 
 @font-face {
     font-family: gamefont;
-    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2);
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
 	/*change the font if you want*/
 }
 /*
+Edit the parts after " : " (e.g --accent: <----) the arrow would be what you edit
 DONT EDIT BELOW HERE 
 please dont edit below here unless you know what your doing also hi my names kry nice to meet you :) 
 Hello welcome to clarity's core 
