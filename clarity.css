@@ -1,32 +1,44 @@
 @import url(https://raw.githubusercontent.com/KrysiSnz/clarity.css/main/ClarityMain.css?token=AN6BBYZTQAVXE7MYF4ZDEH3ASDBZC);
+/*
+above is the raw code
+THIS IS A AUTO UPDATING SCRIPT
+dont edit the :root 
+Edit the parts after " : " (e.g --accent: <----) the arrow would be what you edit
 
 
 
 
-/*Edit Below | DO NOT TOUCH ABOVE OR IT WILL BREAK*/
+
+
+only edit below here
+*/
+
+
 
 :root {
-    --accent: #00ffec;
-	/*Primary Color For Text and such*/
 	
-    --accent2: #ff7db3;
-	/*Secondary Color , Used for text shadows etc*/
+--accent: #00ffec;
+/*Main Color*/
 	
-    --bg-color: #0000008f;
-	/*Primary BackRound Color Should be slightly Transparent*/
+--accent2: #ff7db3;
+/*Accent Color*/
 	
-    --bg-accent: #65406ba3;
-	/*Used for shadow backround elements */
+--bg-color: #0000008f;
+/*Primary Backround Color (make it slightly transparent)*/
 	
-    --gif: url(https://cdn.betterttv.net/emote/5d38aaa592fc550c2d5996b8/3x); 
-	/*url directly to gif or png*/
-	/*ONLY CHANGE url(change this);*/
+--bg-accent: #65406ba3;
+/*Seccondary Backround Color (make it slightly transparent)*/
 	
-    --size: 110px;
-	/*Some Emotes Need Scaling so mess around if it dosnt display*/
+--gif: url(https://cdn.betterttv.net/emote/5d38aaa592fc550c2d5996b8/3x);
+/*url directly to gif or png*/
+/*--gif: url(you link here) <---- LIKE THIS*/
+	
+--size: 110px; 
+/* To Scale the size of the gif (scaling it to big can fuck your entire ui)*/
 }
 
 @font-face {
     font-family: gamefont;
     src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2);
+	/*change the font if you want*/
 }
