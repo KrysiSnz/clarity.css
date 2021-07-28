@@ -1,40 +1,6 @@
-:root {	
-    --accent: #00ffec;
-    /*Main Color*/	
-	
-    --accent2: #ff7db3;
-    /*Accent Color*/
-    	
-    --bg-color: #0000008f;
-    /*Primary Backround Color (make it slightly transparent)*/
-	
-    --bg-accent: #65406ba3;
-    /*Seccondary Backround Color (make it slightly transparent)*/
-	
-    --gif: url(https://cdn.betterttv.net/emote/5d38aaa592fc550c2d5996b8/3x);
-    /*url directly to gif or png*/
-    /*--gif: url(you link here) <---- LIKE THIS*/
-	
-    --size: 110px; 
-    /* To Scale the size of the gif (scaling it to big can fuck your entire ui)*/
-}
-
-@font-face {
-    font-family: gamefont;
-    src: url();
-	/*change the font if you want*/
-}
-/*
-Edit the parts after " : " (e.g --accent: <----) the arrow would be what you edit
-DONT EDIT BELOW HERE 
-please dont edit below here unless you know what your doing also hi my names kry nice to meet you :) 
-Hello welcome to clarity's core 
-
-otherwise feel free to edit or change and reuse just make sure to CREDIT ME or leave the kry.uwu.ai link or make it smaller its at the bottem if you want to , or if you
-want to delete it 
 
 
-ando fixes start*/
+/*ando Steam fixes start*/
 
 .rainbowText{background-image: linear-gradient(to right, #2e62ff, #0099ff , #00ff00, #ffde3b, #ff3399, #6666ff);animation: gradient-border 2s linear infinite;background-size: 400% 100%;color: transparent !important;-webkit-background-clip: text;}
 @keyframes gradient-border{0%, 200% {background-position: 0 0;}99.999999999999999% {background-position: -130% 0;}} 
